@@ -1,0 +1,5 @@
+N = input()
+N=int(N)
+
+for i in range(9):
+    print(N,"*",i+1,"=",(N*(i+1)))
